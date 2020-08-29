@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head lang="ja">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!----font-awesome----->
+  <link href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" rel="stylesheet">
+  <!----CSS----->
+  <link rel="stylesheet" type="text/css" href="css/itiro.css">
+  <link rel="stylesheet" type="text/css" href="css/i_responsive.css">
+  <!--jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <title>らーめんいち郎のHP</title>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <!---最上部ナビ-->
+  <div class="container header-wrapper">
+    <div class="header-left">
+      <img src="img/white-border.png" alt="ラーメンいちろうのロゴ">
+    </div>
+    <div class="header-right">
+      <ul>
+        <li>
+          <a href="#commitment-jump">
+            <p>こだわり</p>
+          </a>
+        </li>
+        <li>
+          <a href="#menu-jump">
+            <p>メニュー</p>
+          </a>
+        </li>
+        <li>
+          <a href="#access-jump">
+            <p>アクセス</p>
+          </a>
+        </li>
+        <li>
+          <a href="recrute.html" target="_blank">
+            <p>スタッフ募集</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+    <!--モーダルメニュー-->
+  <div class="modal-wrapper">
+    <div class="container modal">
+      <div class="nav-icon">
+        <a href="#" class="btn-active">
+          <i class="fas fa-bars" ></i>
+          <i class="fas fa-times"></i>
+        </a>
+      </div>
+      <div id="fade-list" class="fade-parts">
+        <ul>
+          <li>
+            <a href="#commitment-jump">
+            <p>こだわり</p>
+            </a>
+          </li>
+          <li>
+            <a href="#menu-jump">
+            <p>メニュー</p>
+            </a>
+          </li>
+          <li>
+            <a href="#access-jump">
+            <p>アクセス</p>
+            </a>
+          </li>
+          <li>
+            <a href="recrute.html" target="_blank">
+            <p>スタッフ募集</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+<main>
+  <!---appeal---->
+  <div class="container appeal-wrapper">
+    <div class="top-appeal">
+    </div>
+  </div>
+  <!---commitment--->
+  <div class="commitment" id="commitment-jump">
+    <h2>こだわり</h2>
+    <div class="shopkeeper-wrapper">
+      <div class="shopkeeper-top">
+        <h3>店主<span>森田 一郎</span></h3>
+      </div>
+      <div class="shopkeeper-detail">
+        <div class="shopkeeper-img">
+          <img src="img/shopkeeper.jpg" alt="店主">
+        </div>
+        <div class="shopkeeper-text">
+          <p>ラーメン一筋40年。開店当初から通い続けて下さるお客様に喜んで頂くため、40年間メニューの値上げは致しておりません。<br>
+           アメリカのドランブ大統領が来日した際には、お忍びで当店をご利用頂きご満足のお言葉を頂きました。</br>
+           安さだけでなく、美味しさでもお客様を笑顔に致します。
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="material-wrapper">
+      <div class="material-top">
+        <h3>国内産の材料</h3>
+      </div>
+      <div class="material-detail">
+        <div class="material-img">
+          <img src="img/sozai.png" alt="素材">
+        </div>
+        <div class="material-text">
+          <p>当店で使用している食材全てが国産品です。<br>
+             麺に使用する小麦粉は北海道産の中でも最高級な物を、スープに使う煮干しは厳選された物だけを使用しております。
+          </P>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="menu_wrapper" id="menu-jump">
+    <div class="menu-top">
+       <h2>メニュー</h2>
+    </div>
+    <div class="menu-item">
+      <div class="syouyu menu-detail">
+        <div class="syouyu-img">
+          <img src="img/syouyu.jpg" width="500" height="546" alt="醤油ラーメン" class="syouyu-ramen">
+        </div>
+        <div class="syouyu-price">
+          <p>醤油ラーメン　¥550(税抜き)</p>
+        </div>
+      </div>
+      <div class="sio menu-detail">
+      <div class="sio-img">
+        <img src="img/sio.jpg" width="500" height="546" alt="塩ラーメン">
+      </div>
+      <div class="sio-price">
+        <p>塩ラーメン　¥580(税抜き)</P>
+      </div>
+    </div>
+    <div class="tonkotsu menu-detail">
+       <div class="tonkotsu-img">
+          <img src="img/tonkotsu.jpg" width="500" height="546" alt="豚骨ラーメン">
+        </div>
+        <div class="tonkotsu-price">
+          <p>豚骨ラーメン　¥550(税抜き)</P>
+        </div>
+      </div>
+      <div class="miso menu-detail">
+         <div class="miso-img">
+           <img src="img/miso.jpg" width="500" height="546" alt="味噌ラーメン">
+        </div>
+        <div class="miso-price">
+          <p>味噌ラーメン　¥580(税抜き)</P>
+        </div>
+      </div>
+    </div>
+  </div>
+   <div class="location" id="access-jump">
+     <div class="container">
+       <div class="location-top">
+         <h2>所在地</h2>
+       </div>
+       <div class="location-detail">
+         <div class="address-detail">
+           <div class="address-detail-inner">
+             <table class="address-detail-table">
+               <tbody>
+                 <tr>
+                   <th>住所</th>
+                   <td>東京都千代田区千代田1-1</td>
+                 </tr>
+                 <tr>
+                   <th>電話番号</th>
+                   <td>
+                     <span>03-XXXX-XXXX</span>
+                   </td>
+                 </tr>
+                 <tr>
+                   <th>営業時間</th>
+                   <td>
+                     <span>11:00～23:00(日曜定休)</span>
+                   </td>
+                 </tr>
+                 <tr>
+                   <th>席数</th>
+                     <td>
+                       <span>20席</span>
+                     </td>
+                 </tr>
+               </tbody>
+             </table>
+           </div>
+         </div>
+         <div class="map pc_tb_page">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.726357444691!2d139.74345131492504!3d35.68373933744253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c7116eab8ad%3A0xc57fcf864ba7dda6!2z44CSMTAwLTAwMDEg5p2x5Lqs6YO95Y2D5Luj55Sw5Yy65Y2D5Luj55Sw77yR4oiS77yR!5e0!3m2!1sja!2sjp!4v1598151594889!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+         </div>
+       </div>
+    </div>
+  </div>
+</main>
+<hr class="sp-line">
+<footer>
+  <div class="container">
+    <div class="copyright">
+      <span>&copy;2020 ラーメンいち郎</span>
+    </div>
+    <div class="sns">
+      <a target="_blank" href="#" class="twitter">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="#" class="instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+  </div>
+</footer>
+</div>
+<script type="text/javascript" src="js/itiro.js"></script>
+</body>
+</html>
